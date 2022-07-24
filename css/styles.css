@@ -1,1 +1,180 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
 
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.big-heading{
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+font-family: 'ubuntu';
+font-weight: bold;
+font-size: 2.3rem;
+}
+
+.navbar{
+  padding-bottom: 4rem;
+}
+
+.nav-item{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  /* font-weight: lighter ; */
+  font-family: 'Montserrat';
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.title-class {
+  padding: 3% 15% 7%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  margin-left: 2.5rem;
+  width:280px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features section */
+
+#features{
+background-color: white;
+position: relative;
+z-index: 1;
+}
+
+.features-class{
+  padding:7% 15%;
+}
+
+.features-heading{
+  font-size: 1.5rem;
+}
+
+.features-text{
+  color: #8f8f8f;
+}
+
+.fas-color{
+  color: #ef8172;
+  margin: 5% 0;
+}
+
+.fas-color:hover{
+  color: #FF4C68;
+}
+
+/* Testimonials section */
+
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.carousel-inner{
+  padding:7% 15%;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.press-image{
+  width:15%;
+  margin:20px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding:7% 12%;
+}
+
+.pricing-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.breed{
+  font-size: 2rem;
+}
+
+.price{
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+/* call section */
+
+#cta{
+  background-color: #FF4C68;
+  padding: 7% 15%;
+}
+
+/* footer section */
+
+#footer{
+  background-color: white;
+  padding: 7% 15% 2%;
+}
+
+.icon{
+  margin: 10px;
+}
+
+/* media query */
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
